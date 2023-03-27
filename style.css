@@ -1,0 +1,236 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.mother-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+
+    
+}
+
+.mother-con1 {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+.mother-container .box-1 > h1 {
+    color: blue;
+    font-size: 80px; 
+}
+
+.mother-container .box-1 > p{
+    font-size: 26.5px;
+    margin-left: 100px;
+   
+}
+
+
+
+.box-1 {
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+
+.box-2 {
+    background-color: whitesmoke;
+    width: 60%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 10px;
+
+
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+
+
+form > input {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    box-shadow: 0px 0px 2px;
+    border: none;
+    outline-color: lightblue;
+    flex-direction: row;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding-left: 10px;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+
+
+.box-3>a {
+    background-color:  rgb(70, 70, 220);
+    width: 350px;
+    height: 50px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.box-4>a {
+    background-color: whitesmoke;
+    width: 350px;
+    height: 50px;
+    margin-top: 10px;
+    color: blue;
+    border-radius: 5px;
+
+}
+
+.box-3>a {
+    background-color: blue;
+    width: 350px;
+    height: 50px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.box-5>a {
+    background-color: rgb(4, 171, 4);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+p {
+    margin: 10px 0px 0px 0px;
+}
+
+span{
+    color: black;
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width:768px) {
+    .mother-container{
+       display: grid;
+       grid-template-columns: 2, 2fr;
+       width: 100%;
+
+       
+    
+    }
+
+    .box-1{
+        width: 80%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        
+    }
+
+    .box-2{
+        width: 90%;
+        
+    }
+
+    .mother-con1{
+        width: 100%;
+    }
+
+    
+ 
+}
+
+@media screen and (max-width:650px) {
+    .mother-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1, 1fr;
+    }
+
+    .mother-container  .box-1> p{
+        font-size:0.6rem;
+    }
+    
+    .box-2{
+        width: 100%;
+        
+    }
+
+    .mother-con1{
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+     form > input{
+        width: 250px;
+        height: 40px; 
+    
+    }
+
+     .box-3 > a{
+        width: 250px;
+        height: 40px; 
+        
+    }
+     .box-4 > a{
+        width: 250px;
+        height: 40px;  
+        
+    }
+     .box-5 > a{
+        width: 150px;
+        height: 40px;  
+        font-size: 1rem;
+        
+    }
+
+    
+.mother-container .box-1 > h1 {
+    
+    font-size: 60px; 
+
+  }
+
+  }
